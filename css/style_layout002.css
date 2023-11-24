@@ -1,0 +1,44 @@
+/* 언어설정 */
+
+@charset 'UTF-8';
+
+/* reset 설정 */
+* {margin: 0;
+    padding: 0;}
+ul,ol {list-style: none;}
+a {text-decoration: none;
+    color: #000;}
+
+/* 박스 2-1과 박스 2-2의 가로정렬 */
+
+.box2 , .box3 {float: left;
+                width: 50%;}
+
+.boxA::after {content: '';
+                display: block;
+                clear: both;}
+
+/* 박스 4-1, 박스 4-2, 박스 4-3의 가로정렬 */
+
+.box5 { float: left;
+        width: 20%;}
+.box6 { float: left;
+        width: 60%;}
+.box7 { float: right;
+        width: 20%;}
+
+.boxB::after {content: "";
+                display: block;
+                clear: both;}
+
+/* 두번째 레이아웃 설정 */
+
+.boxC {float: left;
+        width: 70%;}
+.box15 {float: left;
+        width: 30%;}
+
+.boxD::after {content: "";
+                display: block;
+                clear: both;}
+

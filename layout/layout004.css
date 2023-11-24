@@ -1,0 +1,273 @@
+/* 언어설정 */
+
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+/* reset */
+
+* {margin: 0;
+    padding: 0;}
+
+a {text-decoration: none;
+    color: #000;}
+
+img {vertical-align: bottom;
+    border: none;}
+
+ul,ol {list-style: none;}
+
+
+/* 박스1 설정 */
+
+.box1 {width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;}
+
+
+
+.box1 .logo {}
+.box1 .logo img {cursor: pointer;}
+.box1 .nav {}
+.box1 .nav ul {display: flex;
+                margin-left: 80px;}
+.box1 .nav ul li {padding: 20px;}
+.box1 .nav ul a {display: block;
+            font-size: 20px;
+            font-family: 'Gothic A1', sans-serif;}
+
+.box1 .nav ul li:hover {background-color: rgb(18, 89, 203);
+                    cursor: pointer;}      
+.box1 .nav ul li:hover a {color: #fff;
+                            font-weight: 500;}
+.box1 .util {border: 2px solid rgb(18, 89, 203);
+            border-radius: 10px;
+            background-color: rgb(18, 89, 203);}
+.box1 .util p {padding: 10px 30px;
+   }
+.box1 .util a {display: block;
+               color: #fff;
+               font-family: 'Gothic A1', sans-serif;}
+            
+.box1 .util:hover {background-color: #fff;}
+.box1 .util p:hover a {font-weight: 600;
+                        color: rgb(18, 89, 203);}
+
+/* 박스2 설정 */
+
+.box2 {width: 100%;
+            height: 400px;
+            background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+        }
+.box2-inner {width: 80%;
+            margin: 0 auto;
+        height: 100%;
+    background-color: #fff;}
+.box2 .hero {display: flex;
+            height: 100%;}
+.box2 .hero>div {width: 50%;}
+
+
+
+.hero .txtBox {padding-left: 100px;
+                padding-top: 100px;}
+.hero .txtBox h3 {font-size: 20px;}
+.hero .txtBox p {font-size: 50px;}
+
+.hero .txtBox {
+        opacity: 0;
+        transform: translateX(-100px);
+        animation: slideIn 1.5s forwards;
+      }
+
+
+
+
+      .hero .txtBox p {
+    font-family: 'Black Han Sans', sans-serif;
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    color: transparent;
+    -webkit-background-clip: text;}
+.hero .txtBox .btn {padding-left: 150px;
+                    padding-top: 10px;}
+.hero .txtBox .btn a {display: inline-block;
+                    font-size: 15px;
+                    font-weight: 500;
+                    padding: 10px 30px;
+                    color: #fff;
+                    border-radius: 10px;
+                    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+                    border: 2px solid #fff;
+                    font-family: 'Gothic A1', sans-serif;}
+
+           
+.hero .txtBox .btn:hover {opacity: 0.8;}      
+                
+
+.hero .imgBox {background-image: url(img/goh.gif);
+                height: 100%;
+                background-repeat: no-repeat;}
+
+.hero .imgBox {opacity: 0;
+    transform: translateX(100px);
+    animation: ani 1.5s forwards;}
+
+
+/* 박스3 설정 */
+
+
+.box3 {width: 80%;
+        margin: 0 auto;
+        height: 500px;}
+
+.box3 .titleBox {height: 40%;
+            text-align: center;}
+
+.box3 .titleBox h2 { padding: 20px 0;
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 40px;
+font-weight: 400;
+background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+color: transparent;
+    -webkit-background-clip: text;}
+.box3 .titleBox p {font-family: 'Hahmlet', serif;}
+
+
+.box3 .listBox {height: 50%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;}
+
+.box3 .listBox1 {text-align: center;}
+.box3 .listBox1 ul li:nth-child(3) {font-family: 'Zilla Slab', serif;}
+
+.box3 .listBox2 {text-align: center;}
+.box3 .listBox2 ul li:nth-child(3) {font-family: 'Zilla Slab', serif;}
+
+.box3 .listBox3 {text-align: center;}
+.box3 .listBox3 ul li:nth-child(3) {font-family: 'Zilla Slab', serif;}
+
+
+.box3 .listBox img {width: 400px;
+                    height: 200px;}
+
+.box3 .listBox h3 {padding: 20px 0;}
+
+
+
+/* 박스4 설정 */
+
+
+.box4 {height: 400px;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);}
+.box4-inner {display: flex;
+            background-color: #fff;
+            margin: 0 auto;
+            width: 80%;
+            height: 100%;}
+
+.box4-inner>div {width: 50%;}
+
+.box4-1 .title {text-align: center;
+                padding-top: 20px;
+                font-size: 40px;
+                }
+
+.box4-1 .title h2 {background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    color: transparent;
+        -webkit-background-clip: text;}
+
+.box4-1 .txt {text-align: center;}
+.box4-1 .txt h3 {padding-top: 25px;}
+.box4-1 .txt h4 {padding-bottom: 20px;
+                font-weight: 400;
+                font-family: 'Zilla Slab', serif;}
+.box4-1 .txt p {}
+.box4-1 .btn {text-align: center;
+                padding-top: 50px;}
+.box4-1 .btn a {display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 10px;
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    border: 2px solid #fff;
+    font-family: 'Gothic A1', sans-serif;}
+
+    .box4-1 .btn:hover {opacity: 0.8;}   
+
+
+
+
+.box4 .listBox ul {}
+.box4 .listBox li {display: flex;
+                    padding-top: 50px;}
+.box4-2 .listBox .ico {font-size: 30px;
+                        padding: 0 20px;}
+.box4-2 .listBox .ico {font-size: 30px;}
+.box4-2 h3 {color: #3b5bfc;
+            font-size: 25px;}
+.box4-2 .listBox h3 p {padding-top: 10px;}
+
+
+
+
+
+
+
+/* 박스5 설정 */
+
+.box5 {height: 300px;
+        padding: 20px 0;
+        }
+.box5-inner {width: 80%;
+    height: 100%;
+                margin: 0 auto;
+                display: flex;
+            justify-content: space-around;
+            }
+
+.box5-inner .txtBox {text-align: center;}
+.box5-inner .txtBox h3 {font-size: 50px;
+                        padding-top: 30px;
+                        font-family: 'Cinzel', serif;
+                            }
+.box5-inner .txtBox p {padding: 10px 0;
+        font: 25px;
+    font-family: 'Hahmlet', serif;}
+
+/* 박스6 설정 */
+
+.box6 {height: 200px;
+        opacity: 0.5;
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);}
+
+
+
+
+    @keyframes slideIn {
+        from {
+          transform: translateX(-100px);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+
+      @keyframes ani {
+        from {
+          transform: translateX(100px);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }

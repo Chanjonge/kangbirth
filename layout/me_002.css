@@ -1,0 +1,316 @@
+/* 언어설정 */
+
+@charset "UTF-8";
+
+
+
+* {margin: 0;
+    padding: 0;}
+
+img { border: none;
+    vertical-align: bottom;}
+
+ol,ul {list-style: none;}
+
+a {color: #000;
+    text-decoration: none;}
+
+
+
+
+
+
+
+
+
+
+.box1-inner,
+.box2-inner,
+.box3-inner,
+.box4-inner,
+.box5-inner,
+.box6-inner,
+.box7-inner,
+.box8-inner,
+.box9-inner,
+.box10-inner {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+/* 박스1 설정 */
+.box1 {background-color: orange;}
+.box1-inner {display: flex;
+              justify-content: space-between;}
+.box1-inner>div {padding: 20px;}
+
+.box1-1 {}
+.box1-1 ul {display: flex;}
+.box1-1 li {padding-right: 30px;}
+.box1-1 a {display: block;
+      font-size: 20px;
+      color: #fff;}
+
+
+.box1-2 {}
+.box1-2 ul {display: flex;}
+.box1-2 li {padding-left: 50px;}
+.box1-2 a {display: block;
+      font-size: 18px;
+      color: #fff;}
+
+/* 박스2 설정 */
+
+.box2 {
+      height: 50vh;}
+.box2-inner {position: relative;
+          height: 100%;
+          box-sizing: border-box;}
+.box2-1 {position: absolute;
+      left: 0;
+      top: 150px;
+      width: 50%;
+      height: 50%;
+      font-size: 20px;}
+.box2-1 h2 {font-size: 50px;
+          margin-bottom: 20px;}
+.box2-2 {position: absolute;
+      right: 0;
+      top: 0;
+      width: 50%;
+      height: 100%;
+      background-color: beige}
+.box2-3 {position: absolute;
+      bottom: 25%;
+      left: 50px;
+      padding: 20px 100px;
+      border: none;
+      border-radius: 50px;
+      
+      background-color: orange;}
+.box2-3 a {display: inline-block;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600;}
+
+/* 박스3 설정 */
+
+.box3 {height: 30vh;
+  background-color: bisque;
+  position: relative;
+ }
+.box3-inner { height: 200px;
+          position: absolute;
+          
+          text-align: center;
+          right: 10px;
+          top: 60px;
+
+          }
+.box3 h2 {font-size: 40px;
+          margin: 20px auto;
+          
+          text-align: left;
+              }
+.box3 p {text-align: left;
+      font-size: 20px;}
+
+/* 박스4 설정 */
+
+.box4 {background-color: orange;
+      height: 40vh;
+      padding: 20px 0;}
+.box4-inner {height: 100%;}
+.box4-inner h2 {font-size: 50px;
+              text-align: center;
+              padding: 20px 0;}
+.box4-inner ul {display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  }
+.box4-inner li {width: 30%;
+              margin: 0 auto;
+              height: 200px;
+              text-align: center;
+              padding: 70px 0;
+              background-color: #fff;}
+
+.box4-inner li p {padding: 20px 0;}
+
+
+}
+
+
+/* 박스5 설정 */
+
+.box5 {height: 40vh;
+      background-color: antiquewhite;}
+.box5-inner {height: 100%;}
+.box5-inner h2 {text-align: center;
+              font-size: 30px;
+              padding: 30px 0;
+              }
+.box5-1 {display: flex;
+      height: 60%;}
+.box5-1>div {
+              margin: 0 auto;
+              
+              width: 20%;
+              text-align: center;}
+
+.box5-1 .imgBox {background-color: orange;
+                      height: 250px;}
+.box5-1 .imgBox p:nth-child(2) { background-color: #fff;
+                              padding: 10px 0;
+                              margin-top: 190px;}
+
+.box5-1 .btn {border: 1px #fff solid;
+              padding: 20px 0;
+              margin-top: 20px;
+              background-color: #fff;
+              border-radius: 30px;}
+
+
+
+
+/* 박스6 설정 */
+
+.box6 {height: 80vh;
+      background-color: #fff;
+      padding: 20px 0;}
+.box6-inner {height: 100%;}
+.box6-inner h2 {font-size: 30px;
+              text-align: center;
+              padding: 30px 0;
+              box-sizing: border-box;}
+
+.box6-inner .imgBox {background-color: orange;
+                      width: 300px;
+                      height: 200px;
+                     }
+.box6-inner .txtBox h2 {width: 60%;
+              text-align: left;
+              margin: 0 auto;}
+.box6-inner .txtBox p {
+      width: 60%;
+              text-align: left;
+              margin: 0 auto;
+
+}
+
+.box6-inner .btn {
+             width: 200px;
+              margin: 20px auto;
+              
+     }
+.box6-inner .btn p {text-align: center;
+                      border: none;
+                      padding: 10px 0;
+                      border-radius: 20px;
+                      background-color: orange;
+                      
+                      }
+.box6-inner .btn a {color: #fff;
+              font-weight: 600;
+              padding: 20px 30px;}
+
+.box6-1 {display: flex;
+      justify-content: center;
+      height: 20%;
+      margin-bottom: 100px;
+      }
+
+.box6-2 {display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      height: 20%;
+      }
+
+.box6-3 {display: flex;
+  justify-content: center;
+  height: 20%;
+  margin-top: 100px;
+ }
+
+
+
+
+
+/* 박스7 설정 */
+
+.box7 {background-color: #fff;
+      border-top: orange dotted 1px;}
+.box7-inner {padding: 50px 0;}
+.box7-inner p {text-align: center;
+              margin: 10px 0;}
+
+.box7-inner p:nth-child(1) {font-size: 40px;}
+.box7-inner p:nth-child(2) {margin: 50px 0;
+                      }
+
+.box7-inner p:nth-child(2) a {border: none;
+      background-color: orange;
+      border-radius: 20px;
+      padding: 10px 50px;
+      font-weight: 600;
+      font-size: 20px;}
+
+.box7-inner a {color: #fff;
+                      font-weight: bold;}
+
+/* 박스8 설정 */
+
+.box8 {height: 40vh;
+      background-color: orange;
+      box-sizing: border-box;}
+.box8-inner {height: 100%;}
+.box8-inner h2 {text-align: center;
+              padding: 30px 0;}
+.box8-inner .container {}
+.box8-inner .container ul {display: flex;
+  align-items: center;
+  justify-content: center;}
+.box8-inner .container li {background-color: #fff;
+                      width: 33%;
+                      align-items: center;
+                      text-align: center;
+                      height: 250px;
+                      margin: 0 10px;}
+
+/* 박스9 설정 */
+
+.box9 {height: 40vh;
+      box-sizing: border-box;}
+.box9-inner {display: flex;
+          height: 100%;}
+
+.box9-1 {width: 30%;
+      margin: auto 0;
+      height: 100%;}
+.box9-1 h2 {
+          font-size: 30px;
+              padding-top: 20px;}
+.box9-1 p {text-align: left;
+          padding: 30px 0;}
+
+.box9-2 {width: 70%;
+          background-color: aliceblue;}
+
+
+/* 박스10 설정 */
+
+.box10 {height: 200px;
+      background-color: #ddd;}
+.box10-inner {display: flex;
+              justify-content: space-between;
+              align-items: center;
+              height: 100%;
+              box-sizing: border-box;}
+.box10-1 {
+          
+          }
+.box10-1 h2 {font-size: 20px;
+}
+.box10-1 p {}
+
+.box10-2 {}

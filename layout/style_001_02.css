@@ -1,0 +1,228 @@
+/* 언어설정 */
+
+@charset 'UTF-8';
+
+* {margin: 0;
+    padding: 0;}
+
+ol,li {list-style: none;}
+
+a {text-decoration: none;
+    color: #000;}
+
+img {border: none;
+    vertical-align: bottom;}
+
+
+div {box-sizing: border-box;}
+
+
+
+/* 박스1 설정 */
+
+.box1 { background-color: #fff;
+        
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between}
+
+.box1 h1 {
+            
+            padding: 20px 30px;}
+
+.box1-1 {
+    
+    display: flex;
+    
+    margin-top: 30px;
+    margin-right: 20px;
+
+    }
+.box1-1 a {display: block;
+                padding: 10px;
+                margin-right: 20px;}
+
+/* 박스2 설정 */
+
+.box2 {padding: 20px;
+        height: 50vh;
+        background-image: url(img/bgtop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        text-align: center;
+        opacity: 0.8;
+        }
+.box2 h2 {font-weight: 400;
+            font-size: 30px;
+            margin-top: 50px;
+        color: #fff;
+        opacity: 1;}
+.box2 p {margin-top: 20px;
+    margin-bottom: 30px;
+    opacity: 1;
+color: #fff;}
+.box2 .btn {margin-top: 50px;}
+.box2 .btn a {border: 2px solid #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #fff;
+            }
+
+
+/* 박스3 설정 */
+
+.box3 { height: 30vh;
+        text-align: center;
+        background-color: #fff;
+        }
+.box3 h2 {padding-top: 30px;}
+.box3 p {margin: 30px;}
+
+
+/* 박스4 설정 */
+
+.box4 {display: flex;
+        background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+            height: 50vh;
+            padding-bottom: 20px;
+            }
+.box4>div {width: 50%;
+            box-sizing: border-box;}
+            
+.box4-1 { padding: 30px 50px;
+            overflow: hidden;
+            margin-right: 20px;}
+.box4-1 p { 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 100%;
+            margin-left: 100px;
+            height: 100%;}
+
+.vid {width: auto;
+       height: auto;
+        }
+
+.vid video {object-fit: fill;
+    width: 100%;
+height: auto;
+}
+
+
+.txtBox { background-color: rgba(255, 255, 255, 0.5);
+        width: 50%;
+        height: 80%;
+        text-align: center;
+        padding-top: 50px;
+        margin-top: 50px;
+        }
+
+.box4-2 h2 {font-weight: 600;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #ff5c00;
+    opacity: 1.0;
+}
+.box4-2 p {margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+    color: #fd5f00;
+}
+.box4-2 .btn {margin-top: 30px;}
+.box4-2 .btn a {border: 2px solid #ff5c00;;
+    padding: 5px 20px;
+    color: #ff5c00;;
+    
+    }
+
+/* 박스5 설정 */
+
+.box5 { 
+        height: 40vh;
+    background-color: #eee;
+    padding: 20px 40px;
+    }
+
+.box_inner {display: flex;
+            justify-content: space-around;
+                align-items: center;}
+.box5 .summary { text-align: center;
+        margin: 30px 0 0 0;
+            }
+
+.box5 .imgBox { width: 100%; 
+    height: 250px;
+                background-color: #fff;
+                }
+
+
+.box5 div p { color: #ff5c00;
+            
+            font-weight: 600;
+            font-size: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            }
+.summary {width: 30%;}
+.summary:nth-child(1) .imgBox {background-image: url(https://cdn.pixabay.com/photo/2016/01/02/02/03/orange-1117645_1280.jpg);
+                                background-size: cover;}
+.summary:nth-child(2) .imgBox {background-image: url(https://cdn.pixabay.com/photo/2014/08/01/08/31/oranges-407429_1280.jpg);
+                                    background-size: cover;}
+.summary:nth-child(3) .imgBox {background-image: url(https://cdn.pixabay.com/photo/2022/12/31/13/11/fruits-7688632_1280.jpg);
+                                        background-size: cover;}
+
+/* 박스6 설정 */
+
+.box6 {padding: 50px;
+        height: 30vh;
+        text-align: center;
+        background-color: pink;}
+.box6 .box6-1 {background-color: #fff;
+            height: 100%;
+            padding: 20px;}
+.box6>h2 {margin-top: 80px;}
+.box6>p {margin-top: 20px;
+            }
+
+/* 박스7 설정 */
+
+.box7 {text-align: center;
+    background-color: #fff;
+        padding: 20px;
+        height: 30vh;
+       }
+.box7 h2 { margin-top: 50px;}
+.box7 p { margin-top: 50px;}
+
+/* 박스8 설정 */
+
+.box8 {background-color: #222;
+        height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    color: #fff;}
+
+.box8>div {margin: auto;
+    }
+
+.box8-1 {}
+.box8-1 ul {}
+.box8-1 li {margin-top: 20px;}
+.box8-1 a {font-size: 20px;
+    color: #fff;
+            }
+
+.box8-2 {font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        font}
+
+.box8-3 {}
+.box8-3 li { margin-top: 20px;}
+.box8-3 a {font-size: 20px;
+    color: #fff;
+   }

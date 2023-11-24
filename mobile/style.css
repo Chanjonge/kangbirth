@@ -1,0 +1,311 @@
+/* 언어설정 */
+
+@charset 'UTF-8';
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  vertical-align: bottom;
+  border: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+}
+
+/* 전체프레임설정 */
+#wrap {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-image: url(img/bg_morning.jpg);
+  background-size: cover;
+}
+
+/* 로고설정 */
+
+#wrap h1 {
+  width: 90px;
+  height: 80px;
+  background-image: url(img/logo_b.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  position: fixed;
+  left: 60px;
+  top: 30px;
+}
+
+/* hero 설정 */
+
+article {
+  position: absolute;
+  left: 150px;
+  top: 50%;
+  margin-top: -100px;
+}
+
+article p {
+  font-size: 50px;
+  color: #666;
+}
+article strong {
+  color: #111;
+}
+article em {
+  font-style: normal;
+  font-size: 14px;
+  color: #333;
+}
+
+/* 모바일구간 */
+
+figure {
+  width: 1226px;
+  height: 809px;
+  background-image: url(img/phone_morning.png);
+  position: absolute;
+  right: -300px;
+  top: 200px;
+}
+
+figure p {
+    overflow: hidden;
+  position: absolute;
+  width: 548px;
+  height: 312px;
+  left: 135px;
+  top: 100px;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+
+.ml001 {width: 600px;
+    position: absolute;
+    top: -100px;
+    animation: ani3 60s infinite linear;}
+
+    
+.ml002 {width: 700px;
+position: absolute;
+animation: ani4 60s infinite linear;
+}
+
+
+
+
+
+
+
+
+
+
+/* 네비구간 */
+nav {
+  position: fixed;
+  bottom: 30px;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  width: 20%;
+}
+
+nav ul li a {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+/* 아침 테마 */
+
+
+#wrap.morning {
+  background-image: url(img/bg_morning.jpg);
+}
+
+#wrap.morning h1 {
+  background-image: url(img/logo_b.png);
+}
+
+.morning figure {
+  background-image: url(img/phone_morning.png);
+}
+
+.morning article p {
+  color: #666;
+}
+.morning article strong {
+  color: #111;
+}
+.morning article em {
+  color: #333;
+}
+
+
+
+/* 점심테마 */
+
+#wrap.afternoon {
+  background-image: url(img/bg_afternoon.jpg);
+}
+
+#wrap.afternoon h1 {
+  background-image: url(img/logo_b.png);
+}
+
+.afternoon figure {
+  background-image: url(img/phone_afternoon.png);
+}
+
+.afternoon article p {
+  color: #666;
+}
+.afternoon article strong {
+  color: #111;
+}
+.afternoon article em {
+  color: #333;
+}
+
+
+
+/* 저녁테마 */
+
+#wrap.evening {
+  background-image: url(img/bg_evening.jpg);
+}
+
+#wrap.evening h1 {
+  background-image: url(img/logo_w.png);
+}
+
+.evening figure {
+  background-image: url(img/phone_evening.png);
+}
+
+.evening article p {
+  color: #444;
+}
+.evening article strong {
+  color: #fff;
+}
+.evening article em {
+  color: #333;
+}
+
+
+
+/* 밤테마 */
+
+#wrap.night {
+    background-image: url(img/bg_night.jpg);
+  }
+  
+  #wrap.night h1 {
+    background-image: url(img/logo_w.png);
+  }
+  
+  .night figure {
+    background-image: url(img/phone_night.png);
+  }
+  .night figure p {color: #fff;}
+  .night article p {
+    color: #bbb;
+  }
+  .night article strong {
+    color: #fff;
+  }
+  .night article em {
+    color: #888;
+  }
+  
+
+
+
+
+
+  /* 구름 설정 */
+  
+.cl001 {position: absolute;
+        top: 0;
+        left: -1146px;
+        animation: ani1 110s infinite linear; 
+        }
+.cl002 {position: absolute;
+    top: 20px;
+    left: 0;
+animation: ani2 100s infinite linear;}
+
+
+/* m 구름 설정 */
+
+
+
+
+
+
+
+
+
+
+  @keyframes ani1 {
+        0% { left: -1146px;}
+        100% {left:1950px;}
+
+  }  
+
+
+  @keyframes ani2 {
+    0% { left: 0;}
+    50% {left: 1950px;}
+    50.000% {left: -1841px;}
+    100% {left: 0;}
+
+} 
+
+
+
+@keyframes ani3 {
+    0% { left: -600px;}
+    100% {left:600px;}
+
+}  
+
+@keyframes ani4 {
+    0% { left: 0;}
+    50% {left: 800px;}
+    100% {left:700px;}
+
+}  

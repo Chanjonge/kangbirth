@@ -1,0 +1,64 @@
+/* 언어설정 */
+@charset 'UTF';
+/* reset 설정 */
+* {margin: 0;
+    padding: 0;}
+ul,ol {list-style: none;}
+a {text-decoration: none;
+    color: #000;}
+
+/* 2단 레이아웃 설정 */
+
+#wrap {width: 1200px;
+        margin: 0 auto;}
+
+/* 헤더 설정 */
+.box1 {height: 120px;
+        background-color: #ccc;}
+
+/* 사이드바와 본문 가로정렬 */
+.box2 {float: left;
+        width: 300px;
+        background-color: #eee;
+        height: 100%;}
+.box3 {float: left;
+        width: 900px;}
+
+/* 박스a 설정 */
+.boxA {height: 600px;}
+.boxA::after {content: "";
+                display: block;
+                clear: both;}
+
+/* 푸터 설정 */
+.box4 {height: 100px;
+        background-color: #333;}
+
+
+/* 3단 레이아웃 */
+#wrap1 { width: 1200px;
+        margin: 500px auto;}
+
+/* 헤더설정 */
+.box6 {height: 120px;
+        background-color: #ccc;}
+
+/* 사이드바,본문,사이드바 */
+.box7 {float: left;
+        background-color: aquamarine;
+        width: 250px;
+        height: 100%;}
+.box8 {float: left;
+        width: 800px;}
+.box9 {float: left;
+        background-color: aquamarine;
+        width: 150px;
+        height: 100%;}
+/* 박스 B 설정 */
+.boxB {height: 600px;}
+.boxB::after {content: "";
+                display: block;
+                clear: both;}
+
+.box10 {height: 100px;
+        background-color: #ccc;}
