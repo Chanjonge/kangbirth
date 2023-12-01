@@ -1,0 +1,693 @@
+/* 언어설정 */
+@charset 'UTF-8';
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kurale&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karma&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap");
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+img {
+  border: none;
+  vertical-align: bottom;
+}
+/* font-family: 'Jacques Francois', serif; */
+/* font-family: 'Jacques Francois Shadow', serif; */
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Kurale", serif; */
+/* font-family: "Gowun Dodum", sans-serif; */
+/* font-family: 'Karma', serif; */
+/* font-family: 'Koh Santepheap', serif; */
+
+header {
+  height: 150px;
+  width: 100%;
+  border-bottom: 2px solid #000;
+}
+
+header h1 {
+  text-align: center;
+  background-image: url(img/ysllogoblack.png);
+  background-size: cover;
+  background-position: center center;
+  width: 250px;
+  height: 50px;
+  text-indent: -9999px;
+  margin: 0 auto;
+  padding-top: 50px;
+  cursor: pointer;
+}
+
+header .util {
+  position: fixed;
+  top: 30px;
+  right: 20px;
+  z-index: 10000;
+}
+header .util p {
+  color: #000;
+  float: left;
+  margin-right: 40px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+header .util i {
+  font-size: 25px;
+}
+
+header .util p:hover {
+  transform: scale(1.2);
+  color: #e6a019;
+}
+
+header nav {
+  width: 60%;
+  margin: 0 auto;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+header nav li {
+  padding: 0 5px;
+}
+header nav li a {
+  font-family: "Jacques Francois", serif;
+  display: block;
+  font-size: 18px;
+}
+
+header nav li:hover {
+  background-color: #e6a019;
+}
+header nav li:hover a {
+  color: #fff;
+}
+
+/* 박스1 설정 */
+
+.box1 {
+  display: flex;
+  box-sizing: border-box;
+  width: 70%;
+  margin: 0 auto;
+  height: 800px;
+  position: relative;
+}
+
+.box1 > p {
+  position: absolute;
+  margin-top: 10px;
+  font-family: "Jacques Francois", serif;
+  font-size: 18px;
+  left: 10%;
+  width: 100%;
+  z-index: 10;
+}
+
+.box1 > p span {
+  display: inline-block;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+/* 박스1 이미지박스 */
+
+.box1 .imgBox {
+  width: 800px;
+  box-sizing: border-box;
+  position: relative;
+}
+.box1 .imgBox .main {
+  box-sizing: border-box;
+  background-color: #fff;
+  width: 100%;
+  padding-left: 70px;
+  padding-top: 50px;
+  height: 70%;
+  
+}
+.box1 .imgBox .main ul {display: flex;
+  width: 60%;
+  height: 100%;
+overflow: hidden;
+
+}
+
+.box1 .imgBox .main ul li {
+  
+  padding-left: 70px;
+  padding-bottom: 50px;
+  width: 700px;
+  height: 500px;
+  left: 0;
+  
+}
+
+.box1 .imgBox .main ul li img {
+  
+  
+  width: 500px;
+  height: 500px;
+  
+}
+
+
+.box1 .imgBox .trailer {
+  height: 30%;
+  overflow: hidden;
+  position: relative;
+}
+
+.box1 .imgBox .trailer ul {
+  display: flex;
+  position: absolute;
+  height: 100%;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+
+.box1 .imgBox .trailer ul:nth-child(1) {left: 0;}
+.box1 .imgBox .trailer ul:nth-child(2) {left: 150%;}
+
+.box1 .imgBox .trailer ul li {
+  width: 200px;
+  height: 100%;
+  transition: all 0.5s;
+  text-indent: -9999px;
+  cursor: move;
+  position: relative;
+  
+}
+
+.box1 .imgBox .trailer ul li:nth-child(1) {
+  background-image: url(img/libre4.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.box1 .imgBox .trailer ul li:nth-child(2) {
+  background-image: url(img/libre5.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.box1 .imgBox .trailer ul li:nth-child(3) {
+  background-image: url(img/libre6.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.box1 .imgBox .trailer ul li:nth-child(4) {
+  background-image: url(img/libre7.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.box1 .imgBox .trailer ul li:nth-child(5) {
+  background-image: url(img/libre8.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.box1 .imgBox .trailer ul li:nth-child(6) {
+  background-image: url(img/libre9.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+/* 박스1 텍스트박스 */
+
+.box1 .txtBox {
+  width: 40%;
+  margin-left: 10%;
+}
+
+.box1 .txtBox h2 {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: "Koh Santepheap", serif;
+  padding-top: 50px;
+}
+
+.box1 .txtBox p {
+  font-family: "Karma", serif;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.box1 .txtBox .numBox {
+  margin-top: 50px;
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  border: 2px solid #e6a019;
+  width: 20%;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  align-items: center;
+  position: relative;
+}
+
+.box1 .txtBox .numBox p {
+  
+  padding-bottom: 5px;
+}
+
+.box1 .txtBox .numBox p:nth-child(1) {
+  position: absolute;
+  background-color: #fff;
+  top: -100%;
+  width: 70px;
+}
+
+.box1 .txtBox .numBox p:nth-child(2) {
+  cursor: pointer;
+}
+.box1 .txtBox .numBox p:nth-child(3) {margin-left: 40px;
+  margin-right: 40px;
+}
+
+.box1 .txtBox .numBox p:nth-child(4) {
+  cursor: pointer;
+}
+
+.box1 .txtBox .btn1 {
+  border: 2px solid #e6a019;
+  width: 30%;
+  margin-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.box1 .txtBox .btn2 {
+  border: 2px solid #e6a019;
+  width: 30%;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.box1 .txtBox .btn1:hover {background-color: #e6a019;
+      color: #E6E6FA;}
+      .box1 .txtBox .btn2:hover {background-color: #e6a019;
+        color: #E6E6FA;}
+
+/* 박스2 설정 */
+
+.box2 {
+  height: 700px;
+  width: 90%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box2 video {
+  object-fit: cover;
+  object-position: center top;
+  height: 100%;
+  width: 100%;
+}
+
+
+/* 박스3 설정 */
+
+
+.box3 {
+  height: 400vh;
+  width: 80%;
+  margin: 0 auto;
+  
+}
+.box3>div {background-color: #fff;}
+.box3>h2 {position: fixed;
+  top: 0;
+left: 0;}
+/* 박스3-1 설정 */
+
+
+.box3-1 {
+  height: 100vh;
+  display: flex;
+  width: 1680px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.box3-1 .imgBox {
+  
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: -200px;
+  transition: all 1s;
+  opacity: 0;
+}
+ .box3-1 .imgBox.on {left: 100px;
+opacity: 1;} 
+
+.box3-1 .imgBox img {
+  width: 800px;
+  height: 500px;
+  margin-top: 100px;
+}
+.box3-1 .txtBox {
+  width: 50%;
+  position: absolute;
+  right: -200px;
+  transition: all 1s;
+  opacity: 0;
+}
+ .box3-1 .txtBox.on {right: 0px;
+opacity: 1;} 
+
+.box3-1 .txtBox h2 {
+  margin-top: 100px;
+  font-style: normal;
+  text-align: center;
+  font-family: "Jacques Francois", serif;
+  font-weight: 400;
+}
+.box3-1 .txtBox h2 b {
+  font-size: 60px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  color: #e6a019;
+  font-family: "Jacques Francois", serif;
+}
+
+.box3-1 .txtBox p {margin-top: 50px;
+    text-align: center;
+  font-size: 25px;}
+
+  .box3-1 .txtBox p em {font-style: normal;
+  color: #242FB2;
+font-size: 28px;
+font-weight: 600;}
+  .box3-1 .txtBox p strong {color: #FFC01F;
+    font-size: 28px;}
+
+/* 박스 3-2 설정 */
+
+.box3-2 {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100vh;
+  width: 1600px;
+}
+
+.box3-2 .imgBox {width: 50%;
+  background-attachment: fixed;
+  opacity: 0;
+  transition: all 1s;}
+.box3-2 .imgBox img {height: 770px;
+position: absolute;
+top: -180px;
+right: -20px;
+}
+
+.box3-2 .imgBox.on {opacity: 1;}
+
+
+.box3-2 .txtBox {width: 50%;}
+.box3-2 .txtBox p {font-size: 25px;
+text-align: center;}
+
+.box3-2 .txtBox p:nth-child(1) {padding-top: 100px;}
+.box3-2 .txtBox p:nth-child(2) {padding-top: 80px;
+padding-bottom: 40px;}
+
+
+.box3-2 .txtBox p span {
+color: #242FB2;
+font-size: 28px;
+font-weight: 800;}
+.box3-2 .txtBox p em {font-style: normal;
+                color: #e6a019;
+              font-size: 28px;
+            font-weight: 600;}
+
+/* 박스3-3 설정 */
+
+.box3-3 {
+  width: 1300px;
+  margin: 0 auto;
+  
+  display: flex;
+  height: 100vh;
+  
+}
+
+.box3-3 .imgBox {width: 50%;
+transform: translateY(700px);
+opacity: 0;
+transition: all 1s;}
+
+.box3-3 .imgBox.on {transform: translateY(0);
+  opacity: 1;}
+
+
+.box3-3 .txtBox {width: 50%;}
+
+.box3-3 .txtBox h2 {font-size: 60px;
+            font-weight: 400;
+            font-family: "Jacques Francois", serif;
+          color: #e6a019;
+        text-align: center;}
+
+.box3-3 .txtBox .note {margin-left: 120px;
+  margin-top: 50px;
+height: 240px;
+position: relative;}
+.box3-3 .txtBox .note p {width: 400px;
+  height: 80px;
+  font-size: 30px;
+  font-family: "Jacques Francois", serif;
+text-align: center;
+padding-top: 30px;
+position: absolute;
+top: -400px;
+opacity: 0;
+}
+
+
+.box3-3 .note .note1 {transition: all 2s;}
+.box3-3 .note .note2 {transition: all 1.5s;}
+.box3-3 .note .note3 {transition: all 1s;}
+
+
+.box3-3 .note .note1.on {background-color: #E6E6FA;
+top: 0;
+opacity: 1;}
+.box3-3 .note .note2.on {background-color: #FFC01F;
+color: #fff;
+top: 110px;
+opacity: 1;}
+.box3-3 .note .note3.on {background-color: #EDEF7E;
+top: 220px;
+opacity: 1;}
+
+
+
+
+
+
+/* 박스3-4 설정 */
+
+.box3-4 {display: flex;
+        height: 100vh;
+        width: 1480px;
+        flex-direction: row-reverse;
+      margin: 0 auto;}
+.box3-4 .imgBox {width: 50%;
+  height: 100%;
+  transform: translateX(300px);
+  transition: all 1s;
+  overflow: hidden;
+  opacity: 0;
+}
+.box3-4 .imgBox img {width: 600px;
+                height: 700px;
+                padding-left: 100px;}
+.box3-4 .imgBox.on { transform : translateX(0);
+                opacity: 1;}
+
+.box3-4 .txtBox {width: 50%;
+  transform: translateX(-300px);
+opacity: 0;
+transition: all 1s;}
+
+.box3-4 .txtBox.on {transform: translateX(0);
+opacity: 1;}
+
+.box3-4 .txtBox p {text-align: center;
+        padding-right: 50px;
+      padding-top: 80px;
+    font-size: 25px;}
+.box3-4 .txtBox p b {color: #242FB2;
+  display: inline-block;
+      font-size: 25px;}
+.box3-4 .txtBox p span {font-weight: 600;
+      font-size: 25px;
+    }
+
+.box3-4 .txtBox p em {color: #e6a019;
+        font-size: 25px;
+      font-style: normal;
+    font-weight: 600;}
+
+/* 박스4 설정 */
+
+.box4 {
+  height: 500px;
+  background-color: #000;
+   
+    width: 100%;
+    
+  
+  
+ }
+ .box4 video {object-fit: contain;
+height: 100%;
+width: 100%;}
+
+
+
+/* 박스5 설정 */
+
+.box5 {height: 400px;
+position: relative;
+overflow: hidden;
+padding-top: 50px;
+}
+
+.box5 ul {display: flex;
+width:100%;
+position: absolute;
+}
+.box5 ul li {width: 17%;}
+
+.box5 ul li img { width: 350px;
+    height: 350px;
+  transition: all 0.6s;}
+
+
+  /* 박스5 에니메이션 설정 */
+
+    .box5  ul:nth-child(1) {left: 0;
+      animation: ani4 20s linear infinite;}
+      .box5  ul:nth-child(2) {left: 100%;
+    animation: ani3 20s linear infinite;}
+    
+    .box5:hover ul {animation-play-state: paused;}
+    .box5 ul li:hover img {transform: scale(1.3);}
+
+
+
+
+
+/* 푸터 설정 */
+
+
+footer {height: 400px;
+  width: 100%;}
+footer .top {height: 300px;
+  width: 100%;
+  
+position: relative;
+border-top: 1px solid #000;;
+border-bottom: 1px solid #000;}
+
+footer .top h2 {
+  position: absolute;
+  left: 40%;
+  top: 10%;
+      background-image: url(img/logo.jpg);
+      background-size: contain;
+   width: 400px;
+    background-repeat: no-repeat;
+    height: 200px;
+  text-indent: -9999px;}
+
+footer .top .snsBox {font-size: 30px;
+  
+display: flex;
+position: absolute;
+right: 10%;
+bottom: 0;
+}
+
+footer .top .snsBox a {display: block;
+                    padding-right: 20px;
+                    padding-bottom: 20px;
+                    }
+
+                    footer .snsBox p:hover a {transform: scale(1.2);
+                      color: #e6a019;}
+
+footer .bot {height: 100px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+footer .bot p {padding-top: 20px;}
+
+
+
+    /* 박스5 슬라이드 설정 */
+
+    @keyframes ani3 {
+
+      0%{left: 100%;}
+      50%{left:0 ;}
+      100%{left: -100%;}
+    }
+    
+    
+    @keyframes ani4 {
+    
+    0%{left: 0;}
+    50%{left:-100% ;}
+    50.00001% {left: 100%;}
+    100%{left: 0%;}
+    }
