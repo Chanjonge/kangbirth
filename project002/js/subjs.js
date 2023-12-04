@@ -29,8 +29,8 @@ $(document).ready(function(){
 
 $(window).scroll(function () {
     var sc = $(this).scrollTop();
-    $(".box3>h2").text(sc);
-    console.log(sc)
+    // $(".box3>h2").text(sc);
+    // console.log(sc)
 
      if (sc >= 1200) {
        $(".box3-1 .imgBox").addClass("on");
