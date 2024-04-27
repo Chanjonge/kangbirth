@@ -17,4 +17,31 @@ body {background-color: #fff;}
 #wrap .title {font-family: 'Ownglyph_meetme-Rg'; text-align: center;   font-size: 22px; }
 
 
-#wrap .info {text-align: center;}
+#wrap .info {width: 95%; margin: 0 auto; text-align: center; font-weight: 100; font-family: 'Bazzi';}
+#wrap .info p {font-size: 23px; letter-spacing: 5px; margin-bottom: 40px;}
+
+.swiper {  margin: 100px 0; width: 240px; height: 320px;  }
+  .swiper h3 {text-align: center; margin-bottom: 50px; font-size: 25px; font-weight: 100; font-family: 'Bazzi';}
+  .swiper-wrapper {display: flex;}
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+.line {width: 80%;  margin: 90px auto 0 auto; height: 1px; background-color: rgba(0, 0, 0, 0.5);}
+.line2 {width: 80%;  margin: 190px auto 0 auto; height: 1px; background-color: rgba(0, 0, 0, 0.5);}
+
+.invi-wrap {text-align: center; margin-top: 100px;}
+.invi-wrap h3 {font-weight: 100; font-family: 'Bazzi'; font-size: 25px; }
+.invi-wrap .img {width: 90%; background-repeat: no-repeat; background-size: cover; background-position: center center; margin: 30px auto; height: 300px;}
+.invi-wrap .txt-wrap p {margin: 50px 30px; font-family: 'Bazzi'; font-weight: 400; font-size: 17px;}
+.invi-wrap .txt-wrap p span {display: block; margin: 50px 0;}
+.invi-wrap .txt-wrap p span b {font-weight: 400; font-size: 23px;}
