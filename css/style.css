@@ -18,9 +18,9 @@ body {background-color: #fff;}
 #wrap .info {width: 95%; margin: 0 auto; text-align: center; font-weight: 100; font-family: 'Bazzi';}
 #wrap .info p {font-size: 23px; letter-spacing: 5px; margin-bottom: 40px;}
 
-.swiper {  margin: 100px 0; width: 240px; height: 320px;  }
+.swiper {  margin: 50px 0 0; width: 240px; height: 520px;  }
   .swiper h3 {text-align: center; margin-bottom: 50px; font-size: 25px; font-weight: 100; font-family: 'Bazzi';}
-  .swiper-wrapper {display: flex;}
+  .swiper-wrapper {display: flex; height: 70% !important;}
 
   .swiper-slide {
     display: flex;
@@ -34,8 +34,10 @@ body {background-color: #fff;}
     background-size: cover;
     background-position: center center;
   }
+
+
 .line {width: 80%;  margin: 90px auto 0 auto; height: 1px; background-color: rgba(0, 0, 0, 0.5);}
-.line2 {width: 80%;  margin: 190px auto 0 auto; height: 1px; background-color: rgba(0, 0, 0, 0.5);}
+.line2 {width: 80%;  margin: 0px auto 0 auto; height: 1px; background-color: rgba(0, 0, 0, 0.5);}
 
 .invi-wrap {text-align: center; margin-top: 100px;}
 .invi-wrap h3 {font-weight: 100; font-family: 'Bazzi'; font-size: 25px; }
