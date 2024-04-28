@@ -8,12 +8,12 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+a {color: #000; text-decoration: none;}
 body {background-color: #fff;}
 
-#wrap {max-width: 577px; position: relative; margin: 0 auto; background-color: #fff9e7;}
-.main_img {width: 100%; height: 400px; background-repeat: no-repeat; background-size: contain;}
-.sub_img {width: 100%; height: 400px; background-repeat: no-repeat; background-size: contain;}
+#wrap {overflow: hidden; max-width: 577px; position: relative; margin: 0 auto; background-color: #fff9e7;}
+.main_img {width: 100%; height: 400px; background-repeat: no-repeat; background-position: center center; background-size: contain;}
+.sub_img {width: 100%;height: 360px; background-repeat: no-repeat; background-position: center center; background-size: contain;}
 
 #wrap .info {width: 95%; margin: 0 auto; text-align: center; font-weight: 100; font-family: 'Bazzi';}
 #wrap .info p {font-size: 23px; letter-spacing: 5px; margin-bottom: 40px;}
@@ -39,9 +39,42 @@ body {background-color: #fff;}
 .line {width: 80%;  margin: 90px auto 0 auto; height: 1px; background-color: rgba(0, 0, 0, 0.5);}
 .line2 {width: 80%;  margin: 0px auto 0 auto; height: 1px; background-color: rgba(0, 0, 0, 0.5);}
 
-.invi-wrap {text-align: center; margin-top: 100px;}
+.invi-wrap {text-align: center; margin-top: 50px;}
 .invi-wrap h3 {font-weight: 100; font-family: 'Bazzi'; font-size: 25px; }
-.invi-wrap .img {width: 90%; background-repeat: no-repeat; background-size: cover; background-position: center center; margin: 30px auto; height: 300px;}
+.invi-wrap .img {width: 90%; background-repeat: no-repeat; background-size: cover; background-position: center center; margin: 50px auto; height: 300px;}
 .invi-wrap .txt-wrap p {margin: 50px 30px; font-family: 'Bazzi'; font-weight: 400; font-size: 17px;}
 .invi-wrap .txt-wrap p span {display: block; margin: 50px 0;}
 .invi-wrap .txt-wrap p span b {font-weight: 400; font-size: 23px;}
+
+.map-wrap {width: 90%; margin: 0 auto;}
+.map-wrap h3 {text-align: center; font-weight: 100; margin: 50px 0 40px 0; font-family: 'Bazzi'; font-size: 25px;}
+.map-wrap .map-info {margin: 20px 0;}
+.map-wrap .map-info h4 {margin-bottom: 20px; font-size: 21px; font-weight: 600;  font-family: 'Pretendard-Regular';}
+.map-wrap .map-info p {font-weight: 100;  font-family: 'Pretendard-Regular'; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
